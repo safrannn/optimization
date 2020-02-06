@@ -1,0 +1,10 @@
+# Ignore xcode files
+1_function/1_function.xcodeproj/*
+*.xcodeproj/
+DerivedData/
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore Doxygen config file
+*/doxy_config
