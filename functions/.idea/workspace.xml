@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="functions" targetName="functions" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b8075e0-7fa6-4bb6-a60d-fef3c7344d34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/functions/bin/func_fx.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/bin/func_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/lib/mt64.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/lib/mt64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/func.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/func.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/result.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/result.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/util.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/annotated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bc_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bdwn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_data_stats-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_data_stats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_runner-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_runner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_35baea09d55bebfe17654fdf4bf061ce.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_7b5c417ef616f9a9cc4d02c93916de84.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_a02403b15ef5df26b3d4343d9e6dd2de.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_fb6daa1fd067b6a4ba48efb10e898369.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/doxygen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/doxygen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dynsections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/folderclosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/folderopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/func_8cpp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/func_8h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/func_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_vars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/globals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/globals_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/globals_vars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/menudata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/namespacefunc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/namespacemembers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/namespacemembers_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/namespaces.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nav_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nav_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nav_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/result_8cpp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/result_8h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/result_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/files_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/files_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/files_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/files_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/files_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/files_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/functions_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/mag_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/namespaces_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/namespaces_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/nomatches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/search_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/searchdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/variables_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/splitbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sync_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sync_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tab_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tab_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tab_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tab_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/util_8cpp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/util_8h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/util_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/firstDeJong_fHistory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/firstDeJong_fHistory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/firstDeJong_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/firstDeJong_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/firstDeJong_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/firstDeJong_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/rosenbrock_fHistory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/rosenbrock_fHistory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/rosenbrock_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/rosenbrock_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/rosenbrock_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/rosenbrock_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/schwefel_fHistory.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/schwefel_fHistory.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/schwefel_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/schwefel_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/schwefel_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../genetic_algorithm/genetic_algorithm/bin/schwefel_stats.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XQ1La90c301BaI9jgPJNJ0w1ac" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="functions" TARGET_NAME="functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="functions" RUN_TARGET_NAME="functions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b8075e0-7fa6-4bb6-a60d-fef3c7344d34" name="Default Changelist" comment="" />
+      <created>1580963448889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580963448889</updated>
+      <workItem from="1580963452376" duration="151000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1580963602846">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1580963602846" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1580963602846">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1580963602846" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1580963602845">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1580963602845" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1580963602846">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1580963602846" />
+    <state x="374" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1580963495493">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="374" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1580963495493" />
+  </component>
+</project>

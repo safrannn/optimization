@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chengsu/projects/optimization/differential_evolution/src/func.cpp
+func.h
+/Users/chengsu/projects/optimization/differential_evolution/src/func.h
+cmath
+-
+vector
+-
+iostream
+-
+
+/Users/chengsu/projects/optimization/differential_evolution/src/func.h
+stdio.h
+-
+vector
+-
+
