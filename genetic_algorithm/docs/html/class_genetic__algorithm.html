@@ -72,9 +72,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7751fa59ff65562e23217474aee95bb9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_genetic__algorithm.html#a7751fa59ff65562e23217474aee95bb9">Genetic_algorithm</a> (float(*funct)(vector&lt; float &gt; &amp;), int bound_min, int bound_max)</td></tr>
-<tr class="memdesc:a7751fa59ff65562e23217474aee95bb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solution sets.  <a href="class_genetic__algorithm.html#a7751fa59ff65562e23217474aee95bb9">More...</a><br /></td></tr>
-<tr class="separator:a7751fa59ff65562e23217474aee95bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52fb73105489b31695088d7a13cf56e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_genetic__algorithm.html#a52fb73105489b31695088d7a13cf56e6">Genetic_algorithm</a> (float(*funct)(vector&lt; float &gt; &amp;), float l, float u)</td></tr>
+<tr class="memdesc:a52fb73105489b31695088d7a13cf56e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solution sets.  <a href="class_genetic__algorithm.html#a52fb73105489b31695088d7a13cf56e6">More...</a><br /></td></tr>
+<tr class="separator:a52fb73105489b31695088d7a13cf56e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaa0e76d2308a2ea88892f8ce63151c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_genetic__algorithm.html#aaaa0e76d2308a2ea88892f8ce63151c7">run</a> ()</td></tr>
 <tr class="memdesc:aaaa0e76d2308a2ea88892f8ce63151c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize genetic algorithm to run for a certain function.  <a href="class_genetic__algorithm.html#aaaa0e76d2308a2ea88892f8ce63151c7">More...</a><br /></td></tr>
 <tr class="separator:aaaa0e76d2308a2ea88892f8ce63151c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,8 +93,8 @@ vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a clas
 <tr class="separator:a5765a27de2056fe2d5f018c4a53a7173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7751fa59ff65562e23217474aee95bb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7751fa59ff65562e23217474aee95bb9">&#9670;&nbsp;</a></span>Genetic_algorithm()</h2>
+<a id="a52fb73105489b31695088d7a13cf56e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52fb73105489b31695088d7a13cf56e6">&#9670;&nbsp;</a></span>Genetic_algorithm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -108,14 +108,14 @@ vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a clas
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>bound_min</em>, </td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>bound_max</em>&#160;</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -128,8 +128,9 @@ vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a clas
 <p>Solution sets. </p>
 <p>Initialize genetic algorithm to run for a certain function </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">bound_min</td><td>low bound for x </td></tr>
-    <tr><td class="paramname">bound_max</td><td>high bound for x </td></tr>
+    <tr><td class="paramname">f</td><td>function </td></tr>
+    <tr><td class="paramname">l</td><td>low bound for x </td></tr>
+    <tr><td class="paramname">u</td><td>high bound for x </td></tr>
   </table>
   </dd>
 </dl>
@@ -158,8 +159,8 @@ vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a clas
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>genetic_algorithm/src/<a class="el" href="genetic__algorithm_8h_source.html">genetic_algorithm.h</a></li>
-<li>genetic_algorithm/src/genetic_algorithm.cpp</li>
+<li>src/<a class="el" href="genetic__algorithm_8h_source.html">genetic_algorithm.h</a></li>
+<li>src/genetic_algorithm.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

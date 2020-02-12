@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['func_2eh_41',['func.h',['../func_8h.html',1,'']]]
+  ['data_5fstats_2eh_42',['data_stats.h',['../data__stats_8h.html',1,'']]]
 ];

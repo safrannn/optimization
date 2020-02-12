@@ -1,0 +1,103 @@
+\hypertarget{class_population}{}\doxysection{Population Class Reference}
+\label{class_population}\index{Population@{Population}}
+
+
+{\ttfamily \#include $<$population.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_population_abdf89977e0d960465c318cd934782738}{init}} (int s, int d, float($\ast$funct)(vector$<$ float $>$ \&), int l, int u)
+\item 
+void \mbox{\hyperlink{class_population_ab792c7b489d780119efea6b96bf99f3d}{generation}} ()
+\begin{DoxyCompactList}\small\item\em Initialize a population. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_population_afd6e8f86c3fddfa31b0de3d05f9821d2}{evaluate}} ()
+\begin{DoxyCompactList}\small\item\em Generate random number to fill the population. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_population_a9b59be31a7adca50ced0be81f86636a0}{reset}} ()
+\begin{DoxyCompactList}\small\item\em Evaluate the population the population by first calculating each function\textquotesingle{}s cost, then calculate fitness accordingly. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_population_a4b18ddde0ac62dc51d42311b6c0f2f1b}{sort\+\_\+by\+\_\+cost}} ()
+\begin{DoxyCompactList}\small\item\em Reset the population for new run. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_population_a1ea1f550e31455038b4919c9f8baa465}\label{class_population_a1ea1f550e31455038b4919c9f8baa465}} 
+vector$<$ vector$<$ float $>$ $>$ {\bfseries population}
+\item 
+\mbox{\Hypertarget{class_population_aab9e6a14936185dbdb64f008d4f1add2}\label{class_population_aab9e6a14936185dbdb64f008d4f1add2}} 
+vector$<$ float $>$ {\bfseries cost}
+\item 
+\mbox{\Hypertarget{class_population_a9476c77a62159721d15c6b098c1923af}\label{class_population_a9476c77a62159721d15c6b098c1923af}} 
+vector$<$ float $>$ {\bfseries fitness}
+\item 
+\mbox{\Hypertarget{class_population_aea0177b51105fab5a651bed2535e88a3}\label{class_population_aea0177b51105fab5a651bed2535e88a3}} 
+float {\bfseries fitness\+\_\+total}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_population}{Population}} for genetic algorithm. Individual\textquotesingle{}s population of x is represented by vector$<$float$>$. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_population_afd6e8f86c3fddfa31b0de3d05f9821d2}\label{class_population_afd6e8f86c3fddfa31b0de3d05f9821d2}} 
+\index{Population@{Population}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!Population@{Population}}
+\doxysubsubsection{\texorpdfstring{evaluate()}{evaluate()}}
+{\footnotesize\ttfamily void Population\+::evaluate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Generate random number to fill the population. 
+
+Evaluate the population the population by first calculating each function\textquotesingle{}s cost, then calculate fitness accordingly. \mbox{\Hypertarget{class_population_ab792c7b489d780119efea6b96bf99f3d}\label{class_population_ab792c7b489d780119efea6b96bf99f3d}} 
+\index{Population@{Population}!generation@{generation}}
+\index{generation@{generation}!Population@{Population}}
+\doxysubsubsection{\texorpdfstring{generation()}{generation()}}
+{\footnotesize\ttfamily void Population\+::generation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialize a population. 
+
+Generate random number to fill the population. \mbox{\Hypertarget{class_population_abdf89977e0d960465c318cd934782738}\label{class_population_abdf89977e0d960465c318cd934782738}} 
+\index{Population@{Population}!init@{init}}
+\index{init@{init}!Population@{Population}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Population\+::init (\begin{DoxyParamCaption}\item[{int}]{s,  }\item[{int}]{d,  }\item[{float($\ast$)(vector$<$ float $>$ \&)}]{funct,  }\item[{int}]{l,  }\item[{int}]{u }\end{DoxyParamCaption})}
+
+Initialize a population 
+\begin{DoxyParams}{Parameters}
+{\em s} & population size \\
+\hline
+{\em d} & population dimension \\
+\hline
+{\em low} & x low bound \\
+\hline
+{\em high} & x high bound \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_population_a9b59be31a7adca50ced0be81f86636a0}\label{class_population_a9b59be31a7adca50ced0be81f86636a0}} 
+\index{Population@{Population}!reset@{reset}}
+\index{reset@{reset}!Population@{Population}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void Population\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Evaluate the population the population by first calculating each function\textquotesingle{}s cost, then calculate fitness accordingly. 
+
+reset the population for new run \mbox{\Hypertarget{class_population_a4b18ddde0ac62dc51d42311b6c0f2f1b}\label{class_population_a4b18ddde0ac62dc51d42311b6c0f2f1b}} 
+\index{Population@{Population}!sort\_by\_cost@{sort\_by\_cost}}
+\index{sort\_by\_cost@{sort\_by\_cost}!Population@{Population}}
+\doxysubsubsection{\texorpdfstring{sort\_by\_cost()}{sort\_by\_cost()}}
+{\footnotesize\ttfamily void Population\+::sort\+\_\+by\+\_\+cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reset the population for new run. 
+
+pair sort to sort the population by cost 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{population_8h}{population.\+h}}\item 
+src/population.\+cpp\end{DoxyCompactItemize}

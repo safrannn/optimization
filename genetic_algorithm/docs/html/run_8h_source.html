@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Genetic Algorithm: genetic_algorithm/src/run.h Source File</title>
+<title>Genetic Algorithm: src/run.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_c034c58c00cf1b6733a718c27481e8eb.html">genetic_algorithm</a></li><li class="navelem"><a class="el" href="dir_114ad9b77d96fff450ac68167e600272.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -75,24 +75,26 @@ $(function() {
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="util_8h.html">util.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="data__stats_8h.html">data_stats.h</a>&quot;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">void</span> <a class="code" href="run_8h.html#af847516a62b1bd25c79c409707a97f34">setSeed</a>(); </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="run_8h.html#a57e7f99709b8959e719e0dadfc589917">runFunc</a>(<span class="keywordtype">int</span> experiment, <span class="keywordtype">string</span> func_name, <span class="keywordtype">float</span> (*f)(vector&lt;float&gt; &amp;),<span class="keywordtype">int</span> max, <span class="keywordtype">int</span> min); </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span> <a class="code" href="run_8h.html#a36f7cfefc2d92deed16c91bd44281bfd">output</a>(<span class="keywordtype">string</span> func_name, <a class="code" href="class_data_stats.html">DataStats</a> result, vector&lt;vector&lt;float&gt;&gt; f_best_history, vector&lt;vector&lt;float&gt;&gt; solution, <span class="keywordtype">float</span> time); </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">void</span> <a class="code" href="run_8h.html#af847516a62b1bd25c79c409707a97f34">setSeed</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="class_data_stats.html">DataStats</a> <a class="code" href="run_8h.html#ade7d5aaf97b6450e7f7f574467e8880d">runFunc</a>(<span class="keywordtype">int</span> experiment, <span class="keywordtype">string</span> func_name, <span class="keywordtype">float</span> (*f)(vector&lt;float&gt; &amp;),<span class="keywordtype">float</span> max, <span class="keywordtype">float</span> min);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* run_hpp */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">void</span> <a class="code" href="run_8h.html#a2f1640409172034adddba01aa1c39ba4">output</a>(<span class="keywordtype">string</span> func_name, <a class="code" href="class_data_stats.html">DataStats</a> result, vector&lt;vector&lt;float&gt;&gt; f_best_history);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="run_8h.html#af8aaff15d8b2c1caab293a32009d3913">output_all</a>(vector&lt;DataStats&gt; result_best);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* run_hpp */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclass_data_stats_html"><div class="ttname"><a href="class_data_stats.html">DataStats</a></div><div class="ttdoc">Generate analytical results.</div><div class="ttdef"><b>Definition:</b> util.h:16</div></div>
-<div class="ttc" id="arun_8h_html_a36f7cfefc2d92deed16c91bd44281bfd"><div class="ttname"><a href="run_8h.html#a36f7cfefc2d92deed16c91bd44281bfd">output</a></div><div class="ttdeci">void output(string func_name, DataStats result, vector&lt; vector&lt; float &gt;&gt; f_best_history, vector&lt; vector&lt; float &gt;&gt; solution, float time)</div><div class="ttdoc">Run genetic algorithm for a certain function.</div><div class="ttdef"><b>Definition:</b> run.cpp:59</div></div>
-<div class="ttc" id="arun_8h_html_a57e7f99709b8959e719e0dadfc589917"><div class="ttname"><a href="run_8h.html#a57e7f99709b8959e719e0dadfc589917">runFunc</a></div><div class="ttdeci">void runFunc(int experiment, string func_name, float(*f)(vector&lt; float &gt; &amp;), int max, int min)</div><div class="ttdoc">Set seed for Mersenne Twister</div><div class="ttdef"><b>Definition:</b> run.cpp:29</div></div>
+<div class="ttc" id="arun_8h_html_a2f1640409172034adddba01aa1c39ba4"><div class="ttname"><a href="run_8h.html#a2f1640409172034adddba01aa1c39ba4">output</a></div><div class="ttdeci">void output(string func_name, DataStats result, vector&lt; vector&lt; float &gt;&gt; f_best_history)</div><div class="ttdoc">Write output file for record.</div><div class="ttdef"><b>Definition:</b> run.cpp:54</div></div>
+<div class="ttc" id="aclass_data_stats_html"><div class="ttname"><a href="class_data_stats.html">DataStats</a></div><div class="ttdef"><b>Definition:</b> data_stats.h:15</div></div>
+<div class="ttc" id="adata__stats_8h_html"><div class="ttname"><a href="data__stats_8h.html">data_stats.h</a></div><div class="ttdoc">data analysis</div></div>
+<div class="ttc" id="arun_8h_html_af8aaff15d8b2c1caab293a32009d3913"><div class="ttname"><a href="run_8h.html#af8aaff15d8b2c1caab293a32009d3913">output_all</a></div><div class="ttdeci">void output_all(vector&lt; DataStats &gt; result_best)</div><div class="ttdoc">Write output file for all function results.</div><div class="ttdef"><b>Definition:</b> run.cpp:85</div></div>
 <div class="ttc" id="arun_8h_html_af847516a62b1bd25c79c409707a97f34"><div class="ttname"><a href="run_8h.html#af847516a62b1bd25c79c409707a97f34">setSeed</a></div><div class="ttdeci">void setSeed()</div><div class="ttdoc">Set seed for Mersenne Twister</div><div class="ttdef"><b>Definition:</b> run.cpp:19</div></div>
-<div class="ttc" id="autil_8h_html"><div class="ttname"><a href="util_8h.html">util.h</a></div><div class="ttdoc">Analyze result.</div></div>
+<div class="ttc" id="arun_8h_html_ade7d5aaf97b6450e7f7f574467e8880d"><div class="ttname"><a href="run_8h.html#ade7d5aaf97b6450e7f7f574467e8880d">runFunc</a></div><div class="ttdeci">DataStats runFunc(int experiment, string func_name, float(*f)(vector&lt; float &gt; &amp;), float max, float min)</div><div class="ttdoc">Run genetic algorithm for a certain function.</div><div class="ttdef"><b>Definition:</b> run.cpp:29</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

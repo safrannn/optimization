@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Genetic Algorithm: genetic_algorithm/src/run.h File Reference</title>
+<title>Genetic Algorithm: src/run.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_c034c58c00cf1b6733a718c27481e8eb.html">genetic_algorithm</a></li><li class="navelem"><a class="el" href="dir_114ad9b77d96fff450ac68167e600272.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -76,7 +76,7 @@ $(function() {
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="util_8h_source.html">util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="data__stats_8h_source.html">data_stats.h</a>&quot;</code><br />
 </div>
 <p><a href="run_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -86,12 +86,15 @@ Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_8h.html#af847516a62b1bd25c79c409707a97f34">setSeed</a> ()</td></tr>
 <tr class="memdesc:af847516a62b1bd25c79c409707a97f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set seed for <a href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html">Mersenne Twister</a> <br /></td></tr>
 <tr class="separator:af847516a62b1bd25c79c409707a97f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57e7f99709b8959e719e0dadfc589917"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_8h.html#a57e7f99709b8959e719e0dadfc589917">runFunc</a> (int experiment, string func_name, float(*f)(vector&lt; float &gt; &amp;), int max, int min)</td></tr>
-<tr class="memdesc:a57e7f99709b8959e719e0dadfc589917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set seed for <a href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html">Mersenne Twister</a>  <a href="run_8h.html#a57e7f99709b8959e719e0dadfc589917">More...</a><br /></td></tr>
-<tr class="separator:a57e7f99709b8959e719e0dadfc589917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36f7cfefc2d92deed16c91bd44281bfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_8h.html#a36f7cfefc2d92deed16c91bd44281bfd">output</a> (string func_name, <a class="el" href="class_data_stats.html">DataStats</a> result, vector&lt; vector&lt; float &gt;&gt; f_best_history, vector&lt; vector&lt; float &gt;&gt; solution, float time)</td></tr>
-<tr class="memdesc:a36f7cfefc2d92deed16c91bd44281bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run genetic algorithm for a certain function.  <a href="run_8h.html#a36f7cfefc2d92deed16c91bd44281bfd">More...</a><br /></td></tr>
-<tr class="separator:a36f7cfefc2d92deed16c91bd44281bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7d5aaf97b6450e7f7f574467e8880d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_data_stats.html">DataStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_8h.html#ade7d5aaf97b6450e7f7f574467e8880d">runFunc</a> (int experiment, string func_name, float(*f)(vector&lt; float &gt; &amp;), float max, float min)</td></tr>
+<tr class="memdesc:ade7d5aaf97b6450e7f7f574467e8880d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run genetic algorithm for a certain function.  <a href="run_8h.html#ade7d5aaf97b6450e7f7f574467e8880d">More...</a><br /></td></tr>
+<tr class="separator:ade7d5aaf97b6450e7f7f574467e8880d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1640409172034adddba01aa1c39ba4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_8h.html#a2f1640409172034adddba01aa1c39ba4">output</a> (string func_name, <a class="el" href="class_data_stats.html">DataStats</a> result, vector&lt; vector&lt; float &gt;&gt; f_best_history)</td></tr>
+<tr class="memdesc:a2f1640409172034adddba01aa1c39ba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write output file for record.  <a href="run_8h.html#a2f1640409172034adddba01aa1c39ba4">More...</a><br /></td></tr>
+<tr class="separator:a2f1640409172034adddba01aa1c39ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8aaff15d8b2c1caab293a32009d3913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_8h.html#af8aaff15d8b2c1caab293a32009d3913">output_all</a> (vector&lt; <a class="el" href="class_data_stats.html">DataStats</a> &gt; result_best)</td></tr>
+<tr class="memdesc:af8aaff15d8b2c1caab293a32009d3913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write output file for all function results.  <a href="run_8h.html#af8aaff15d8b2c1caab293a32009d3913">More...</a><br /></td></tr>
+<tr class="separator:af8aaff15d8b2c1caab293a32009d3913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Run result. </p>
@@ -99,8 +102,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2020-02-05 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a36f7cfefc2d92deed16c91bd44281bfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36f7cfefc2d92deed16c91bd44281bfd">&#9670;&nbsp;</a></span>output()</h2>
+<a id="a2f1640409172034adddba01aa1c39ba4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f1640409172034adddba01aa1c39ba4">&#9670;&nbsp;</a></span>output()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -121,19 +124,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">vector&lt; vector&lt; float &gt;&gt;&#160;</td>
-          <td class="paramname"><em>f_best_history</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">vector&lt; vector&lt; float &gt;&gt;&#160;</td>
-          <td class="paramname"><em>solution</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>time</em>&#160;</td>
+          <td class="paramname"><em>f_best_history</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -143,28 +134,52 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_
       </table>
 </div><div class="memdoc">
 
-<p>Run genetic algorithm for a certain function. </p>
+<p>Write output file for record. </p>
 <p>Write output file for record </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">func_name</td><td>function name </td></tr>
     <tr><td class="paramname">result</td><td>result analysis data </td></tr>
     <tr><td class="paramname">f_best_history</td><td>minimum value for fx </td></tr>
-    <tr><td class="paramname">solution</td><td>solution set for minimum fx </td></tr>
-    <tr><td class="paramname">time</td><td>running time </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a57e7f99709b8959e719e0dadfc589917"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57e7f99709b8959e719e0dadfc589917">&#9670;&nbsp;</a></span>runFunc()</h2>
+<a id="af8aaff15d8b2c1caab293a32009d3913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8aaff15d8b2c1caab293a32009d3913">&#9670;&nbsp;</a></span>output_all()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void runFunc </td>
+          <td class="memname">void output_all </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; <a class="el" href="class_data_stats.html">DataStats</a> &gt;&#160;</td>
+          <td class="paramname"><em>result_best</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write output file for all function results. </p>
+<p>Write output file for all function results </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result_best</td><td>statistics for results for every function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ade7d5aaf97b6450e7f7f574467e8880d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade7d5aaf97b6450e7f7f574467e8880d">&#9670;&nbsp;</a></span>runFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_data_stats.html">DataStats</a> runFunc </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>experiment</em>, </td>
@@ -184,13 +199,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>min</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>max</em>&#160;</td>
         </tr>
         <tr>
@@ -201,7 +216,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="run_
       </table>
 </div><div class="memdoc">
 
-<p>Set seed for <a href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html">Mersenne Twister</a> </p>
+<p>Run genetic algorithm for a certain function. </p>
 <p>Run genetic algorithm for a certain function </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">experiment</td><td>experiment size </td></tr>
