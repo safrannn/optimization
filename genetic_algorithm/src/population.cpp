@@ -13,24 +13,33 @@
 /// @param d population dimension
 /// @param low  x low bound
 /// @param high x high bound
-void Population::init(int s, int d, float (*funct)(vector<float> &), int l, int u){
+void Population::init(int s, int d, float (*funct)(vector<float> &), float l, float u){
     size = s;
     dimension = d;
     bound_low = l;
     bound_up = u;
     f = funct;
-    
-    reset();
+}
+
+/// reset the population for new run
+void Population::reset(){
+    population.clear();
+    population.reserve(size);
+    cost.clear();
+    cost.reserve(size);
+    fitness.clear();
+    fitness.reserve(size);
+    fitness_total = 0;
 }
 
 /// Generate random number to fill the population
 void Population::generation(){
     population.clear();
     for (int i = 0; i < size; i++){
-        vector<float> newvect;
+        vector<float> newvect(dimension,0);
         population.push_back(newvect);
         for (int j = 0; j < dimension; j++){
-            population[i].push_back(bound_low + ((float)genrand64_real1()) * (bound_up - bound_low));
+            population[i][j] = bound_low + genrand64_real1() * (bound_up - bound_low);
         }
     }
 }
@@ -40,7 +49,7 @@ void Population::evaluate(){
     cost.clear();
     fitness.clear();
     fitness_total = 0.0;
-    
+
     for (vector<float> v : population){
         cost.push_back(f(v));
     }
@@ -55,17 +64,6 @@ void Population::evaluate(){
         fitness.push_back(fit);
         fitness_total += fit;
     }
-}
-
-/// reset the population for new run
-void Population::reset(){
-    population.clear();
-    population.reserve(size);
-    cost.clear();
-    cost.reserve(size);
-    fitness.clear();
-    fitness.reserve(size);
-    fitness_total = 0;
 }
 
 /// helper function for pair sort

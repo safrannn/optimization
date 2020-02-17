@@ -22,7 +22,7 @@ public:
     vector<float> fitness;
     float fitness_total;
     
-    void init(int s, int d, float (*funct)(vector<float> &), int l, int u); /// Initialize a population
+    void init(int s, int d, float (*funct)(vector<float> &), float l, float u); /// Initialize a population
     void generation(); /// Generate random number to fill the population
     void evaluate(); /// Evaluate the population the population by first calculating each function's cost, then calculate fitness accordingly
     void reset(); /// Reset the population for new run

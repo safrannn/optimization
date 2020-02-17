@@ -27,9 +27,11 @@ void setSeed(){
 /// @param min low bound for x
 /// @param max high bound for x
 DataStats runFunc(int experiment, string func_name, float (*f)(vector<float> &),float min, float max){
+    Genetic_algorithm function(f,min,max);
+
     DataStats result;
     vector<vector<float>> f_best_history;
-    Genetic_algorithm function(f,min,max);
+    float time = 0;
     
     for (int i = 0; i < experiment; i++){
         chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now();
@@ -38,11 +40,13 @@ DataStats runFunc(int experiment, string func_name, float (*f)(vector<float> &),
         
         result.data.push_back(function.f_best);
         f_best_history.push_back(function.f_best_history);
-        result.time += chrono::duration_cast<chrono::milliseconds>(finish - start).count();
+
+        time = chrono::duration_cast<chrono::milliseconds>(finish - start).count();
+        result.time.push_back(time);
+        result.time_avg += time;
     }
-    
+    result.time_avg /= experiment;
     result.run();
-    result.time /= experiment;
     output(func_name,result,f_best_history);
     return result;
 }
@@ -53,29 +57,34 @@ DataStats runFunc(int experiment, string func_name, float (*f)(vector<float> &),
 /// @param f_best_history minimum value for fx
 void output(string func_name, DataStats result, vector<vector<float>> f_best_history){
     ofstream file_stats("out/" + func_name + "_stats.csv");
-    file_stats << "Mean,Median,Standard Deviation,Range,Time" << endl;
+    file_stats << "Mean,Median,Standard Deviation,Range,Average time(ms)" << endl;
     file_stats << result.mean << "," ;
     file_stats << result.median << "," ;
     file_stats << result.stand << "," ;
     file_stats << result.range[0] << "-" << result.range[1] << "," ;
-    file_stats << result.time << "ms" << endl;
+    file_stats << result.time_avg << endl;
     file_stats.close();
 
-    ofstream file_result("out/" + func_name + "_result.csv");
-    file_result << "Run#,Result" << endl;
+    ofstream file_fBest("out/" + func_name + "_fBest.csv");
+    file_fBest << "Run#,fBest" << endl;
     for (int i = 0; i < result.data.size(); i++){
-        file_result << i+1 << "," << result.data[i]<< endl;
+        file_fBest << i+1 << "," << result.data[i]<< endl;
     }
-    file_result.close();
+    file_fBest.close();
+
+    ofstream file_time("out/" + func_name + "_timeHistory.csv");
+    file_time << "Run#,Time(ms)" << endl;
+    for (int i = 0; i < result.time.size(); i++){
+        file_time << i+1 << "," << result.time[i]<< endl;
+    }
+    file_time.close();
 
     ofstream file_fHistory("out/" + func_name + "_fHistory.csv");
-    file_fHistory << "Run#,f best" << endl;
     for (int i = 0; i < f_best_history.size(); i++){
-        file_fHistory << i+1 << "," << "[";
         for (int j = 0; j < f_best_history[i].size(); j++){
-            file_fHistory << f_best_history[i][j] << " ";
+            file_fHistory << f_best_history[i][j] << ",";
         }
-        file_fHistory << "]" << endl;
+        file_fHistory << endl;
     }
     file_fHistory.close();
 }
@@ -91,7 +100,7 @@ void output_all(vector<DataStats> result_best){
         file << result_best[i].median << ",";
         file << result_best[i].stand << "," ;
         file << result_best[i].range[0] << "-" << result_best[i].range[1] ;
-        file << "," << result_best[i].time << "ms" << endl;
+        file << "," << result_best[i].time_avg << "ms" << endl;
     }
     file.close();
 }

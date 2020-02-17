@@ -49,7 +49,7 @@ void Genetic_algorithm::crossover(){
     o2.clear();
     o2.reserve(dimension);
     if (genrand64_real1() < crossover_rate){
-        int d = (int)(1 + (float)(genrand64_real3()) * (dimension - 1));
+        int d = (int)(1 + genrand64_real3() * (dimension - 1));
         o1.insert(o1.end(),p1.begin(),p1.begin()+d);
         o1.insert(o1.end(),p2.begin()+d,p2.end());
         o2.insert(o2.end(),p2.begin(),p2.begin()+d);
@@ -72,8 +72,7 @@ void Genetic_algorithm::mutate(vector<float> &s){
             
             if (s[i] < bound_low){
                 s[i] = bound_low;
-            }
-            else if (s[i] > bound_up){
+            }else if (s[i] > bound_up){
                 s[i] = bound_up;
             }
         }
@@ -111,8 +110,6 @@ void Genetic_algorithm::run(){
     // init population
     population.init(population_size, dimension, f, bound_low, bound_up);
     population.generation();
-    
-    // evaluate population
     population.evaluate();
     
     // init new population

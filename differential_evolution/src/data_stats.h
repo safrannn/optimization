@@ -16,9 +16,10 @@ class DataStats
 public:
     float mean = INT_MAX;
     float median = INT_MAX;
-    float stand = INT_MAX;
+    float stand;
     float range[2];
-    float time = 0;
+    float time_avg;
+    vector<float> time;
     vector<float> data;
 
     void run();

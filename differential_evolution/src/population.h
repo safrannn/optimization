@@ -12,26 +12,15 @@
 
 using namespace std;
 
-/// Individual for population
-class Individual{
-public:
-    Individual(float (*f)(vector<float> &), vector<float> numbers);
-    vector<float> data;
-    float (*function)(vector<float> &);
-
-    float cost;
-
-private:
-    void cal_cost();
-};
-
 /// Population for genetic algorithm.
 class Population{
 public:
     void init(int s, int d, float (*f)(vector<float> &), float l, float u); /// Initialize a population
 
-    vector<Individual> data;
-    int individual_best;
+    vector<vector<float>> data;
+    vector<float> cost;
+    int cost_best_index;
+    int cost_best;
 
     void reset(); /// Reset the population for new run
 

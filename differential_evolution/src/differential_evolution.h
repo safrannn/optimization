@@ -33,10 +33,10 @@ private:
     float scaling_factor1 = 0.5; /// Scaling factor (0-1.2]
     float scaling_factor2 = 0.5; /// Scaling factor (0-1.2]
 
+    DEStrategy strategy;
+
     Population population; /// Population
     float (*function)(vector<float> &);
-
-    DEStrategy strategy;
 
     vector<int> select_r(int count, int index);
     float formulation(int i, int j);
