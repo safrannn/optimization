@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="differential_evolution"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="differential_evolution">
+				<Option output="/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/differential_evolution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 differential_evolution"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="differential_evolution/fast">
+				<Option output="/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/differential_evolution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 differential_evolution/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/particle_swamp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/lib/mt64.cpp">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/lib/mt64.h">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/main.cpp">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/data_stats.cpp">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/data_stats.h">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/differential_evolution.cpp">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/differential_evolution.h">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/func.cpp">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/func.h">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/population.cpp">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/population.h">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/run.cpp">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/src/run.h">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/particle_swamp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

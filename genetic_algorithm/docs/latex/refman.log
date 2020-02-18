@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 FEB 2020 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  18 FEB 2020 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,10 +1183,10 @@ Package rerunfilecheck Info: File `refman.out' has not changed.
 (rerunfilecheck)             Checksum: 3F71C4CFF00BB73344E80ED8DB9BA8FB;10990.
  ) 
 Here is how much of TeX's memory you used:
- 16730 strings out of 492616
- 243935 string characters out of 6129482
- 348986 words of memory out of 5000000
- 20184 multiletter control sequences out of 15000+600000
+ 16734 strings out of 492616
+ 244139 string characters out of 6129482
+ 349074 words of memory out of 5000000
+ 20186 multiletter control sequences out of 15000+600000
  62014 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,14n,92p,942b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1201,10 +1201,10 @@ t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/urw/helvetic/uhvb8ac.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/he
 lvetic/uhvro8a.pfb>
-Output written on refman.pdf (28 pages, 133657 bytes).
+Output written on refman.pdf (28 pages, 133590 bytes).
 PDF statistics:
- 742 PDF objects out of 1000 (max. 8388607)
- 695 compressed objects within 7 object streams
- 173 named destinations out of 1000 (max. 500000)
+ 745 PDF objects out of 1000 (max. 8388607)
+ 698 compressed objects within 7 object streams
+ 175 named destinations out of 1000 (max. 500000)
  473 words of extra memory for PDF output out of 10000 (max. 10000000)
 

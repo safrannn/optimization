@@ -27,6 +27,7 @@ void Population::reset(){
     cost.clear();
     cost.reserve(size);
     cost_best = INT_MAX;
+    cost_best_index = 0;
     generate();
 }
 
@@ -46,9 +47,11 @@ void Population::generate(){
         if (indiv_cost <= cost_best){
             cost_best_index = i;
             cost_best = indiv_cost;
+
         }
     }
 }
+
 
 
 

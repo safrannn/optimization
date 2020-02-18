@@ -41,10 +41,10 @@ float func::rosenbrock(vector<float> &x){
 /// @param x descriptionx Vector of float
 float func::rastrigin(vector<float> &x){
     float result = 0;
-    for (int i = 0; i < x.size() - 1; i++){
+    for (int i = 0; i < x.size() ; i++){
         result += x[i] * x[i] - 10.0 * cos((2 * M_PI * x[i]));
     }
-    return 10 * x.size() * result;
+    return 10 * x.size() + result;
 }
 
 /// Function 5, Implementation of Griewangk function
@@ -75,13 +75,14 @@ float func::sineEnvelopeSineWave(vector<float> &x){
 /// Function 7, Implementation of Stretched V Sine Wave function
 /// @param x descriptionx Vector of float
 float func::stretchedVSineWave(vector<float> &x){
-    float result = 0;
+    double result = 0;
     for (int i = 0; i < x.size() - 1; i++){
-        float a = pow(x[i]*x[i]+x[i+1]*x[i+1],1/4);
-        float b = pow(50 * pow(x[i]*x[i]+x[i+1]*x[i+1],1/10),2);
-        result += a*sin(b) + 1;
+        float a = x[i]*x[i]+x[i+1]*x[i+1];
+        float b = pow(a,1.0/4);
+        float c = (pow(a,1.0/10));
+        result += b*sin(50*c)*sin(50*c) + 1;
     }
-    return result;
+    return (float)result;
 }
 
 /// Function 8, Implementation of Ackley's One function

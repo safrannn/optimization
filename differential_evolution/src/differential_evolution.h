@@ -26,17 +26,17 @@ public:
 private:
     int population_size = 200; /// Number of population
     int dimension = 30; /// Dimension
-    float bound_low; ///Lower bound of the function
-    float bound_up; ///Higher bound of the function
-    int gmax= 100; /// Maximum number of generation
+    int gmax = 100; /// Maximum number of generation
     float crossover_rate = 0.8; /// Crossover rate
     float scaling_factor1 = 0.5; /// Scaling factor (0-1.2]
     float scaling_factor2 = 0.5; /// Scaling factor (0-1.2]
-
     DEStrategy strategy;
 
-    Population population; /// Population
     float (*function)(vector<float> &);
+    float bound_low; ///Lower bound of the function
+    float bound_up; ///Higher bound of the function
+
+    Population population; /// Population
 
     vector<int> select_r(int count, int index);
     float formulation(int i, int j);

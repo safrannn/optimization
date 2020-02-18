@@ -1,17 +1,18 @@
 #include "func.h"
 #include <cmath>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
 /// Function 1, Implementation of Schwefel’s function
 /// @param x descriptionx Vector of float
 float func::schwefel(vector<float> &x){
-    float result = 0;
+    double result = 0;
     for (int i = 0; i < x.size(); i++){
         result += (-1.0 * x[i]) * sin(sqrt(fabs(x[i])));
     }
-    return 418.9829 * x.size() - result;
+    return 418.9829 * x.size() - (float)result;
 }
 
 /// Function 2, Implementation of 1st De Jong's function
@@ -40,10 +41,10 @@ float func::rosenbrock(vector<float> &x){
 /// @param x descriptionx Vector of float
 float func::rastrigin(vector<float> &x){
     float result = 0;
-    for (int i = 0; i < x.size() - 1; i++){
+    for (int i = 0; i < x.size() ; i++){
         result += x[i] * x[i] - 10.0 * cos((2 * M_PI * x[i]));
     }
-    return 10 * x.size() * result;
+    return 10 * x.size() + result;
 }
 
 /// Function 5, Implementation of Griewangk function
@@ -63,8 +64,9 @@ float func::griewangk(vector<float> &x){
 float func::sineEnvelopeSineWave(vector<float> &x){
     float result = 0;
     for (int i = 0; i < x.size() - 1; i++){
-        float a = x[i] * x[i] + x[i+1] * x[i+1] - 0.5;
-        float b = 1 + 0.001*(x[i] * x[i] + x[i+1] * x[i+1]);
+        float sqr = x[i] * x[i] + x[i+1] * x[i+1];
+        float a = sqr - 0.5;
+        float b = 1 + 0.001*(sqr);
         result += 0.5 + sin(a * a) / (b * b);
     }
     return -1.0 * result;
@@ -73,13 +75,14 @@ float func::sineEnvelopeSineWave(vector<float> &x){
 /// Function 7, Implementation of Stretched V Sine Wave function
 /// @param x descriptionx Vector of float
 float func::stretchedVSineWave(vector<float> &x){
-    float result = 0;
+    double result = 0;
     for (int i = 0; i < x.size() - 1; i++){
-        float a = pow(x[i]*x[i]+x[i+1]*x[i+1],1/4);
-        float b = pow(50 * pow(x[i]*x[i]+x[i+1]*x[i+1],1/10),2);
-        result += a*sin(b) + 1;
+        float a = x[i]*x[i]+x[i+1]*x[i+1];
+        float b = pow(a,1.0/4);
+        float c = (pow(a,1.0/10));
+        result += b*sin(50*c)*sin(50*c) + 1;
     }
-    return result;
+    return (float)result;
 }
 
 /// Function 8, Implementation of Ackley's One function
@@ -108,26 +111,26 @@ float func::ackleysTwo(vector<float> &x){
 
 /// Function 10, Implementation of Egg Holder  function
 /// @param x descriptionx Vector of float
-float func::eggHolde(vector<float> &x){
-    float result = 0;
+float func::eggHolder(vector<float> &x){
+    double result = 0;
     for (int i = 0; i < x.size() - 1; i++){
-        float a = -1 * x[i] * sin(sqrt(fabs(x[i] - x[i+1]-47)));
-        float b = -1 * (x[i+1]+47) * sin(sqrt(fabs(x[i]/2 + x[i+1] + 47)));
+        double a = -1 * x[i] * sin(sqrt(fabs(x[i] - x[i+1] - 47)));
+        double b = -1 * (x[i+1]+47) * sin(sqrt(fabs(x[i]/2 + x[i+1] + 47)));
         result += a + b;
     }
-    return result;
+    return (float)result;
 }
 
 /// Function 11, Implementation of Rana function
 /// @param x descriptionx Vector of float
 float func::rana(vector<float> &x){
-    float result = 0;
+    double result = 0;
     for (int i = 0; i < x.size() - 1; i++){
-        float a = sqrt(fabs(x[i+1]-x[i]+1));
-        float b = sqrt(fabs(x[i+1]+x[i]+1));
+        double a = sqrt(fabs(x[i+1]-x[i]+1));
+        double b = sqrt(fabs(x[i+1]+x[i]+1));
         result += x[i] * sin(a) * cos(b) + (x[i+1]+1) * cos(a) * sin(b);
     }
-    return result;
+    return (float)result;
 }
 
 /// Function 12, Implementation of Pathological function
@@ -147,7 +150,8 @@ float func::pathological(vector<float> &x){
 float func::michalewicz(vector<float> &x){
     float result = 0;
     for (int i = 0; i < x.size(); i++){
-        result += sin(x[i]) * pow(sin((i+1) * x[i] * x[i]/M_PI),20);
+        float a = sin((i+1) * x[i] * x[i]/M_PI);
+        result += sin(x[i]) * pow(a,20);
     }
     return -result;
 }
@@ -155,12 +159,13 @@ float func::michalewicz(vector<float> &x){
 /// Function 14, Implementation of Masters Cosine Wave function
 /// @param x descriptionx Vector of float
 float func::mastersCosineWave(vector<float> &x){
-    float result = 0;
-    for (int i = 0; i < x.size(); i++){
-        float a = x[i] * x[i] + x[i+1] * x[i+1] + 0.5 * x[i] * x[i+1];
-        result += pow(M_E,- a / 8.0) * cos(4 * sqrt(a));
+    double result = 0;
+    for (int i = 0; i < x.size() - 1; i++){
+        double a = pow(M_E, (-1.0/8.0)*(x[i]*x[i] + x[i+1]*x[i+1] + 0.5*x[i+1]*x[i]));
+        double b = cos(4 * sqrt(x[i]*x[i] + x[i+1]*x[i+1] + 0.5*x[i]*x[i+1]));
+        result += a * b;
     }
-    return -result;
+    return -1.0 * (float)result;
 }
 
 /// Function 15, Implementation of Quartic function
@@ -193,7 +198,7 @@ float func::levy(vector<float> &x){
 float func::step(vector<float> &x){
     float result = 0;
     for (int i = 0; i < x.size(); i++){
-        result += pow(fabs(x[i]) + 0.5, 2);
+        result += (fabs(x[i]) + 0.5) * (fabs(x[i]) + 0.5);
     }
     return result;
 }

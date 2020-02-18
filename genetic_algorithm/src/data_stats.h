@@ -18,7 +18,8 @@ public:
     float mean = INT_MAX;
     float median = INT_MAX;
     float stand = INT_MAX;
-    float range[2];
+    float range_low;
+    float range_high;
     float time_avg = 0;
     vector<float> time;
     vector<float> data;

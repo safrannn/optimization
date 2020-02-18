@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 FEB 2020 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  18 FEB 2020 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,20 +1052,17 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 8.
 ) (./class_d_e.tex [13
 
-] [14]
+]
 Underfull \hbox (badness 10000) detected at line 44
 [][][]
  []
 
-) (./struct_d_e_strategy.tex
+) (./struct_d_e_strategy.tex [14]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 6.29996pt on input line 11.
-) (./class_individual.tex [15])
-(./class_population.tex [16]) [17] [18
-
-]
+) (./class_population.tex [15]) [16]
 Chapter 6.
 (./data__stats_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -1092,7 +1089,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-[19]
+[17
+
+]
 Underfull \hbox (badness 10000) detected at line 23
 [][][]
  []
@@ -1112,7 +1111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[20]
+[18]
 Underfull \hbox (badness 10000) detected at line 59
 [][][]
  []
@@ -1133,17 +1132,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
  []
 
 
-Underfull \hbox (badness 10000) detected at line 22
+Underfull \hbox (badness 10000) detected at line 20
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 25
+Underfull \hbox (badness 10000) detected at line 23
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 28
+Underfull \hbox (badness 10000) detected at line 26
 [][][]
  []
 
@@ -1154,50 +1153,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 16.
-[21]
-Underfull \hbox (badness 10000) detected at line 30
+
+Underfull \hbox (badness 1490) in paragraph at lines 19--20
+[][] [] \T1/phv/m/n/10 (string func[]_[]name, string strategy[]_[]number, [] st
+rat, int ex-per-i-ment,
+ []
+
+[19]
+Underfull \hbox (badness 10000) detected at line 32
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 33
+Underfull \hbox (badness 10000) detected at line 35
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 36
+Underfull \hbox (badness 10000) detected at line 38
 [][][]
  []
 
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 46.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 48.
+[20] [21]
+Underfull \hbox (badness 10000) detected at line 100
+[][][]
+ []
+
+
+Overfull \vbox (4.9004pt too high) has occurred while \output is active []
+
+
 [22]
-Underfull \hbox (badness 10000) detected at line 83
+Underfull \hbox (badness 10000) detected at line 144
 [][][]
  []
 
-[23]
-Underfull \hbox (badness 10000) detected at line 127
-[][][]
- []
+) [23] [24
 
-) [24] (./refman.ind [25
-
+] (./refman.ind [25
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
  (./refman.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: F23E7D2007DC813ADF053A9ED584A5BB;10999.
+(rerunfilecheck)             Checksum: 25E236E75C9C2CDB86D0E23B8D1D2903;10796.
  ) 
 Here is how much of TeX's memory you used:
- 16744 strings out of 492616
- 243942 string characters out of 6129482
- 348037 words of memory out of 5000000
+ 16740 strings out of 492616
+ 243928 string characters out of 6129482
+ 349916 words of memory out of 5000000
  20188 multiletter control sequences out of 15000+600000
  61663 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1213,10 +1223,10 @@ t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/urw/helvetic/uhvb8ac.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/he
 lvetic/uhvro8a.pfb>
-Output written on refman.pdf (29 pages, 135369 bytes).
+Output written on refman.pdf (29 pages, 135136 bytes).
 PDF statistics:
- 772 PDF objects out of 1000 (max. 8388607)
- 723 compressed objects within 8 object streams
- 180 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 759 PDF objects out of 1000 (max. 8388607)
+ 710 compressed objects within 8 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 465 words of extra memory for PDF output out of 10000 (max. 10000000)
 

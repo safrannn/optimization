@@ -86,9 +86,6 @@
 		<Unit filename="/Users/chengsu/projects/optimization/differential_evolution/lib/mt64.h">
 			<Option target="differential_evolution"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/differential_evolution/main.cpp">
-			<Option target="differential_evolution"/>
-		</Unit>
 		<Unit filename="/Users/chengsu/projects/optimization/differential_evolution/src/data_stats.cpp">
 			<Option target="differential_evolution"/>
 		</Unit>
@@ -105,6 +102,9 @@
 			<Option target="differential_evolution"/>
 		</Unit>
 		<Unit filename="/Users/chengsu/projects/optimization/differential_evolution/src/func.h">
+			<Option target="differential_evolution"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/differential_evolution/src/main.cpp">
 			<Option target="differential_evolution"/>
 		</Unit>
 		<Unit filename="/Users/chengsu/projects/optimization/differential_evolution/src/population.cpp">

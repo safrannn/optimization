@@ -14,10 +14,13 @@ using namespace std;
 class DataStats
 {
 public:
-    float mean = INT_MAX;
-    float median = INT_MAX;
+    DataStats();
+
+    float mean;
+    float median;
     float stand;
-    float range[2];
+    float range_low;
+    float range_high;
     float time_avg;
     vector<float> time;
     vector<float> data;
@@ -29,6 +32,7 @@ private:
     void get_median();
     void get_stand();
     void get_range();
+    void get_timeavg();
 };
 
 #endif //data_stats_h

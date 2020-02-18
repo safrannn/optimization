@@ -4,13 +4,6 @@
 CMakeFiles/differential_evolution.dir/lib/mt64.cpp.o: ../lib/mt64.cpp
 CMakeFiles/differential_evolution.dir/lib/mt64.cpp.o: ../lib/mt64.h
 
-CMakeFiles/differential_evolution.dir/main.cpp.o: ../main.cpp
-CMakeFiles/differential_evolution.dir/main.cpp.o: ../src/data_stats.h
-CMakeFiles/differential_evolution.dir/main.cpp.o: ../src/differential_evolution.h
-CMakeFiles/differential_evolution.dir/main.cpp.o: ../src/func.h
-CMakeFiles/differential_evolution.dir/main.cpp.o: ../src/population.h
-CMakeFiles/differential_evolution.dir/main.cpp.o: ../src/run.h
-
 CMakeFiles/differential_evolution.dir/src/data_stats.cpp.o: ../src/data_stats.cpp
 CMakeFiles/differential_evolution.dir/src/data_stats.cpp.o: ../src/data_stats.h
 
@@ -21,6 +14,13 @@ CMakeFiles/differential_evolution.dir/src/differential_evolution.cpp.o: ../src/p
 
 CMakeFiles/differential_evolution.dir/src/func.cpp.o: ../src/func.cpp
 CMakeFiles/differential_evolution.dir/src/func.cpp.o: ../src/func.h
+
+CMakeFiles/differential_evolution.dir/src/main.cpp.o: ../src/data_stats.h
+CMakeFiles/differential_evolution.dir/src/main.cpp.o: ../src/differential_evolution.h
+CMakeFiles/differential_evolution.dir/src/main.cpp.o: ../src/func.h
+CMakeFiles/differential_evolution.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/differential_evolution.dir/src/main.cpp.o: ../src/population.h
+CMakeFiles/differential_evolution.dir/src/main.cpp.o: ../src/run.h
 
 CMakeFiles/differential_evolution.dir/src/population.cpp.o: ../lib/mt64.h
 CMakeFiles/differential_evolution.dir/src/population.cpp.o: ../src/population.cpp

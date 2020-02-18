@@ -25,6 +25,4 @@ void output_func(string func_name, vector<DataStats> result);
 
 void output_all(vector<DataStats> result_best);
 
-//void output(); /// Write output file for record
-
 #endif //run_h

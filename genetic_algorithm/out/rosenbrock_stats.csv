@@ -1,2 +1,2 @@
-Mean,Median,Standard Deviation,Range,Average time(ms)
-2.7839e+08,1.96038e+08,2.14348e+08,3.82597e+07-2.50712e+08,142.94
+Strategy,Mean,Median,Standard Deviation,Range(low),Range(high),Average time(mius)
+GA,2.22052e+08,1.89549e+08,1.64865e+08,6.1136e+06,6.81009e+08,129.84

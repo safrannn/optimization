@@ -48,18 +48,19 @@ vector<int> DE::select_r(int count, int index) {
 float DE::formulation(int i, int j){
     float result = 0.0;
     vector<int> r_values;
+
     if (strategy.perturbed_vector == "best" && strategy.difference_vector == 1){
         r_values = select_r(2,i);
         result += population.data[population.cost_best_index][j];
-        result += scaling_factor1 * (population.data[r_values[0]][j] + population.data[r_values[1]][j]);
+        result += scaling_factor1 * (population.data[r_values[0]][j] - population.data[r_values[1]][j]);
     }else if (strategy.perturbed_vector == "rand" && strategy.difference_vector == 1) {
         r_values = select_r(3,i);
         result += population.data[r_values[2]][j];
-        result += scaling_factor1 * (population.data[r_values[0]][j] + population.data[r_values[1]][j]);
+        result += scaling_factor1 * (population.data[r_values[0]][j] - population.data[r_values[1]][j]);
     }else if (strategy.perturbed_vector == "rand-to-best" && strategy.difference_vector == 1) {
         r_values = select_r(2,i);
         result += population.data[i][j];
-        result += scaling_factor2 * (population.data[population.cost_best_index][j] - population.data[i][j]) +scaling_factor1 * (population.data[r_values[0]][j] + population.data[r_values[1]][j]);
+        result += scaling_factor2 * (population.data[population.cost_best_index][j] - population.data[i][j]) +scaling_factor1 * (population.data[r_values[0]][j] - population.data[r_values[1]][j]);
     }else if (strategy.perturbed_vector == "best" && strategy.difference_vector == 2) {
         r_values = select_r(4,i);
         result += population.data[population.cost_best_index][j];
@@ -68,6 +69,9 @@ float DE::formulation(int i, int j){
         r_values = select_r(5,i);
         result += population.data[r_values[4]][j];
         result += scaling_factor1 * (population.data[r_values[0]][j] + population.data[r_values[1]][j] - population.data[r_values[2]][j] - population.data[r_values[3]][j]);
+    }
+    if (result <= bound_low || result >= bound_up){
+        result = formulation(i, j);
     }
     return result;
 }
@@ -88,7 +92,6 @@ vector<float> DE::run(){
             int j_rand = (int)(genrand64_real2() * dimension);
 
             vector<float> trial(dimension,0);
-
             if (strategy.crossover_type == "binomial" ){
                 for (int j = 0; j < dimension; j++) {
                     if (genrand64_real1() < crossover_rate || j == j_rand) {
@@ -100,16 +103,17 @@ vector<float> DE::run(){
             }else if (strategy.crossover_type == "exponential" ){
                 int l = (int)(genrand64_real2() * dimension);
                 int n = (int)(genrand64_real2() * dimension);
-                vector<int> j_values(l,0);
+                vector<bool> j_values(dimension,false);
 
-                for (int j = 0; j < dimension; j++) {
-                    trial[j] = population.data[i][j];
-                }
                 for (int k = n; k < n+l; k++){
-                    j_values.push_back(k % dimension);
+                    j_values[k % dimension] = true;
                 }
-                for (int j : j_values) {
-                    trial[j] = formulation(i, j);
+                for (int j = 0; j < dimension; j++) {
+                    if (j_values[j]){
+                        trial[j] = formulation(i, j);
+                    }else{
+                        trial[j] = population.data[i][j];
+                    }
                 }
             }
 
@@ -117,8 +121,9 @@ vector<float> DE::run(){
             float trial_cost = function(trial);
             if (trial_cost <= population.cost[i]) {
                 population.data[i] = trial;
+                population.cost[i] = trial_cost;
                 if (trial_cost <= population.cost_best) {
-                    population.cost_best= trial_cost;
+                    population.cost_best = trial_cost;
                     population.cost_best_index = i;
                 }
             }
