@@ -129,7 +129,7 @@ void output_func(string func_name, vector<DataStats> result){
     ofstream file("out/" + func_name + "/" + func_name + "_stats.csv");
     ofstream file_timeHistory("out/"+ func_name + "/"  + func_name + "_timeHistory.csv");
 
-    file << "Strategy,Mean,Median,Standard Deviation,Range(low),Range(high),Time(mius)" << endl;
+    file << "Strategy,Mean,Median,Std,Range(low),Range(high),Time(mius)" << endl;
     for (int i = 0; i < result.size(); i++){
         file << "DE" << std::to_string(i + 1) << ",";
         file << result[i].mean << "," ;
@@ -175,7 +175,7 @@ void output_fHistory(string func_name, string strategy_number,vector<vector<floa
 /// @param result_best best result for each function
 void output_all(vector<DataStats> result_bests){
     ofstream file("out/de_best_stats.csv");
-    file << "Function,Mean,Median,Standard Deviation,Range(low),Range(high),Time(mius)" << endl;
+    file << "f,Mean,Median,Std,Range(low),Range(high),Time(mius)" << endl;
     for (int i = 0; i < result_bests.size(); i++){
         file << "de" << std::to_string(i + 1) << ",";
         file << result_bests[i].mean << "," ;

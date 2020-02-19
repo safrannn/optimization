@@ -58,7 +58,7 @@ DataStats runFunc(int experiment, string func_name, float (*f)(vector<float> &),
 /// @param f_best_history minimum value for fx
 void output(string func_name, DataStats result, vector<vector<float>> f_best_history){
     ofstream file_stats("out/" + func_name + "_stats.csv");
-    file_stats << "Strategy,Mean,Median,Standard Deviation,Range(low),Range(high),Average time(mius)" << endl;
+    file_stats << "Strategy,Mean,Median,Std,Range(low),Range(high),Average time(mus)" << endl;
     file_stats << "GA," ;
     file_stats << result.mean << "," ;
     file_stats << result.median << "," ;
@@ -69,14 +69,12 @@ void output(string func_name, DataStats result, vector<vector<float>> f_best_his
     file_stats.close();
 
     ofstream file_fBest("out/" + func_name + "_fBest.csv");
-    file_fBest << "fBest" << endl;
     for (int i = 0; i < result.data.size(); i++){
         file_fBest << result.data[i]<< endl;
     }
     file_fBest.close();
 
     ofstream file_time("out/" + func_name + "_timeHistory.csv");
-    file_time << "Time(ms)" << endl;
     for (int i = 0; i < result.time.size(); i++){
         file_time << result.time[i]<< endl;
     }
@@ -86,9 +84,9 @@ void output(string func_name, DataStats result, vector<vector<float>> f_best_his
     for (int i = 0; i < f_best_history.size(); i++){
         for (int j = 0; j < f_best_history[i].size(); j++){
             if (j == f_best_history[i].size() - 1){
-                file_fHistory << f_best_history[i][j] << ",";
-            }else {
                 file_fHistory << f_best_history[i][j];
+            }else {
+                file_fHistory << f_best_history[i][j] << ",";
             }
         }
         file_fHistory << endl;
@@ -100,7 +98,7 @@ void output(string func_name, DataStats result, vector<vector<float>> f_best_his
 /// @param result_best statistics for results for every function
 void output_all(vector<DataStats> result_best){
     ofstream file("out/ga_best_stats.csv");
-    file << "Function,Mean,Median,Standard Deviation,Range,Time(ms)" << endl;
+    file << "f,Mean,Median,Std,Range(low),Range(high),Time(mus)" << endl;
     for (int i = 0; i < result_best.size(); i++){
         file << std::to_string(i + 1) << ",";
         file << result_best[i].mean << "," ;
@@ -108,7 +106,7 @@ void output_all(vector<DataStats> result_best){
         file << result_best[i].stand << "," ;
         file << result_best[i].range_low << ",";
         file << result_best[i].range_high << "," ;
-        file << "," << result_best[i].time_avg << endl;
+        file << result_best[i].time_avg << endl;
     }
     file.close();
 }

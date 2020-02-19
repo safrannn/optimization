@@ -1,2 +1,2 @@
-Mean,Median,Standard Deviation,Range,Average time(mius)
-1520.13,1545.43,320.71,709.783,2443.31,165.48
+Strategy,Mean,Median,Std,Range(low),Range(high),Average time(mius)
+GA,1541.2,1571.67,333.191,747.995,2239.77,145.48

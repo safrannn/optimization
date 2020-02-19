@@ -1,5 +1,5 @@
-Strategy,Mean,Median,Standard Deviation,Range(low),Range(high),Time(mius)
-GA,3.39314e+07,2.72367e+07,2.30708e+07,3.94238e+06,8.7592e+07,162.1
+Strategy,Mean,Median,Std,low,high,Time(mus)
+GA,4.20667e+07,3.35967e+07,2.87514e+07,2.97705e+06,1.14974e+08,147.34
 GE1,0.06,0,0.237487,0,1,353.08
 GE2,9.66941e+06,9.59357e+06,2.35018e+06,4.92095e+06,1.56536e+07,470
 GE3,0,0,0,0,0,365.5

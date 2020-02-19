@@ -1,4 +1,4 @@
-Function,Mean,Median,Standard Deviation,Range(low),Range(high),Time(mius)
+f,Mean,Median,Std,Range(low),Range(high),Time(mus)
 1,2429.76,2138.5,1123.87,692,5533,378.42
 2,0.28,0,0.448999,0,1,353.86
 3,6.93525e+07,6.94453e+07,1.83696e+07,3.52724e+07,1.37235e+08,452.94
