@@ -9,13 +9,18 @@
   Memory:	16 GB
 
 
-## Project 1:
+## function:
   18 functions for optimization
 
-## Genetic_algorithm:
+## genetic_algorithm:
 implementing genetic algorithm to find best solution for optimal function value.
 
-## Meta
+## differiential_evolution:
+implementing differential evolution algorithm with 10 different strategies to find best solution for optimal function value.
 
+## particle_swamp:
+implementing particle swamp algorithm to find best solution for optimal function value.
+
+## Meta
 Cheng Su – chengsu6561@gmail.com
 [https://github.com/safrannn/optimization](https://github.com/safrannn/optimization)
