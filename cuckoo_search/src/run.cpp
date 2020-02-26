@@ -66,33 +66,34 @@ void output_fHistory(int strategy, string func_name, vector<vector<float>> f_bes
     }
     file_fHistory.close();
 }
+
 /// write result to a file for one function
 /// @param func_name function name
 /// @param result result stat
 /// @param f_bests_history cost history
-void output_func(string func_name, vector<DataStats> result){
+void output_func(string func_name, vector<DataStats> results){
     /// output result stats
-    ofstream file("out/" + func_name + "/" + func_name + func_name + "_stats.csv");
+    ofstream file("out/" + func_name + "/" + func_name + "_stats.csv");
     file << "Strategy, Mean,Median,Std,Range(low),Range(high),Time(mus)" << endl;
     /// output time history
-    ofstream file_timeHistory("out/" + func_name + "/" + func_name + func_name + "_timeHistory.csv");
+    ofstream file_timeHistory("out/" + func_name + "/" + func_name  + "_timeHistory.csv");
 
-    for (int i = 0; i < result.size(); i++){
+    for (int i = 0; i < results.size(); i++){
         /// write result to file
         file << to_string(i) << "," ;
-        file << result[i].mean << "," ;
-        file << result[i].median << "," ;
-        file << result[i].stand << "," ;
-        file << result[i].range[0] << ",";
-        file << result[i].range[1] << "," ;
-        file << result[i].time_avg << endl;
+        file << results[i].mean << "," ;
+        file << results[i].median << "," ;
+        file << results[i].stand << "," ;
+        file << results[i].range[0] << ",";
+        file << results[i].range[1] << "," ;
+        file << results[i].time_avg << endl;
 
         /// write time history to file
-        for (int j = 0; j < result[i].time.size(); j++){
-            if ( j == result[j].time.size() - 1){
-                file_timeHistory << result[i].time[j] << endl;
+        for (int j = 0; j < results[i].time.size(); j++){
+            if ( j == results[i].time.size() - 1){
+                file_timeHistory << results[i].time[j] << endl;
             }else{
-                file_timeHistory << result[i].time[j] << ",";
+                file_timeHistory << results[i].time[j] << ",";
             }
         }
     }

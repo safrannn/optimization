@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="moth_fire">
-				<Option output="/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/moth_fire" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug"/>
+				<Option output="/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/moth_fire" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 moth_fire"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 moth_fire"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="moth_fire/fast">
-				<Option output="/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/moth_fire" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug"/>
+				<Option output="/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/moth_fire" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,53 +73,53 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 moth_fire/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 moth_fire/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/lib/mt64.cpp">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/lib/mt64.cpp">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/lib/mt64.h">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/lib/mt64.h">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/data_stats.cpp">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/data_stats.cpp">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/data_stats.h">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/data_stats.h">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/func.cpp">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/func.cpp">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/func.h">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/func.h">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/main.cpp">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/main.cpp">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/moth_fire.cpp">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/moth_flame.cpp">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/moth_fire.h">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/moth_flame.h">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/population.cpp">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/population.cpp">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/population.h">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/population.h">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/run.cpp">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/run.cpp">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/src/run.h">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/src/run.h">
 			<Option target="moth_fire"/>
 		</Unit>
-		<Unit filename="/Users/chengsu/projects/optimization/moth_fire/CMakeLists.txt">
+		<Unit filename="/Users/chengsu/projects/optimization/moth_flame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

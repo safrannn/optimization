@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-    int experiment = 10;
+    int experiment = 50;
     vector<DataStats> result_best;
  
     result_best.push_back(runFunc(experiment, "schwefel", func::schwefel, -512, 512)); //
@@ -30,7 +30,7 @@ int main() {
     result_best.push_back(runFunc(experiment, "levy", func::levy, -10, 10));
     result_best.push_back(runFunc(experiment, "step", func::step, -100, 100));
     result_best.push_back(runFunc(experiment, "alpine", func::alpine, -100, 100));
-//
+
     output_all(result_best);
     std::cout << "Code Finish!\n";
     return 0;

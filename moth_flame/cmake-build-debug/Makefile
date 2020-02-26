@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chengsu/projects/optimization/moth_fire
+CMAKE_SOURCE_DIR = /Users/chengsu/projects/optimization/moth_flame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chengsu/projects/optimization/moth_fire/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chengsu/projects/optimization/moth_flame/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/CMakeFiles /Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/CMakeFiles /Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengsu/projects/optimization/moth_fire/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengsu/projects/optimization/moth_flame/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named moth_fire
+# Target rules for targets named moth_flame
 
 # Build rule for target.
-moth_fire: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 moth_fire
-.PHONY : moth_fire
+moth_flame: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moth_flame
+.PHONY : moth_flame
 
 # fast build rule for target.
-moth_fire/fast:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/build
-.PHONY : moth_fire/fast
+moth_flame/fast:
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/build
+.PHONY : moth_flame/fast
 
 lib/mt64.o: lib/mt64.cpp.o
 
@@ -129,7 +129,7 @@ lib/mt64.o: lib/mt64.cpp.o
 
 # target to build an object file
 lib/mt64.cpp.o:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/lib/mt64.cpp.o
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/lib/mt64.cpp.o
 .PHONY : lib/mt64.cpp.o
 
 lib/mt64.i: lib/mt64.cpp.i
@@ -138,7 +138,7 @@ lib/mt64.i: lib/mt64.cpp.i
 
 # target to preprocess a source file
 lib/mt64.cpp.i:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/lib/mt64.cpp.i
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/lib/mt64.cpp.i
 .PHONY : lib/mt64.cpp.i
 
 lib/mt64.s: lib/mt64.cpp.s
@@ -147,7 +147,7 @@ lib/mt64.s: lib/mt64.cpp.s
 
 # target to generate assembly for a file
 lib/mt64.cpp.s:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/lib/mt64.cpp.s
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/lib/mt64.cpp.s
 .PHONY : lib/mt64.cpp.s
 
 src/data_stats.o: src/data_stats.cpp.o
@@ -156,7 +156,7 @@ src/data_stats.o: src/data_stats.cpp.o
 
 # target to build an object file
 src/data_stats.cpp.o:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/data_stats.cpp.o
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/data_stats.cpp.o
 .PHONY : src/data_stats.cpp.o
 
 src/data_stats.i: src/data_stats.cpp.i
@@ -165,7 +165,7 @@ src/data_stats.i: src/data_stats.cpp.i
 
 # target to preprocess a source file
 src/data_stats.cpp.i:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/data_stats.cpp.i
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/data_stats.cpp.i
 .PHONY : src/data_stats.cpp.i
 
 src/data_stats.s: src/data_stats.cpp.s
@@ -174,7 +174,7 @@ src/data_stats.s: src/data_stats.cpp.s
 
 # target to generate assembly for a file
 src/data_stats.cpp.s:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/data_stats.cpp.s
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/data_stats.cpp.s
 .PHONY : src/data_stats.cpp.s
 
 src/func.o: src/func.cpp.o
@@ -183,7 +183,7 @@ src/func.o: src/func.cpp.o
 
 # target to build an object file
 src/func.cpp.o:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/func.cpp.o
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/func.cpp.o
 .PHONY : src/func.cpp.o
 
 src/func.i: src/func.cpp.i
@@ -192,7 +192,7 @@ src/func.i: src/func.cpp.i
 
 # target to preprocess a source file
 src/func.cpp.i:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/func.cpp.i
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/func.cpp.i
 .PHONY : src/func.cpp.i
 
 src/func.s: src/func.cpp.s
@@ -201,7 +201,7 @@ src/func.s: src/func.cpp.s
 
 # target to generate assembly for a file
 src/func.cpp.s:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/func.cpp.s
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/func.cpp.s
 .PHONY : src/func.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -210,7 +210,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -219,7 +219,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -228,35 +228,35 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/moth_fire.o: src/moth_fire.cpp.o
+src/moth_flame.o: src/moth_flame.cpp.o
 
-.PHONY : src/moth_fire.o
+.PHONY : src/moth_flame.o
 
 # target to build an object file
-src/moth_fire.cpp.o:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/moth_fire.cpp.o
-.PHONY : src/moth_fire.cpp.o
+src/moth_flame.cpp.o:
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/moth_flame.cpp.o
+.PHONY : src/moth_flame.cpp.o
 
-src/moth_fire.i: src/moth_fire.cpp.i
+src/moth_flame.i: src/moth_flame.cpp.i
 
-.PHONY : src/moth_fire.i
+.PHONY : src/moth_flame.i
 
 # target to preprocess a source file
-src/moth_fire.cpp.i:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/moth_fire.cpp.i
-.PHONY : src/moth_fire.cpp.i
+src/moth_flame.cpp.i:
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/moth_flame.cpp.i
+.PHONY : src/moth_flame.cpp.i
 
-src/moth_fire.s: src/moth_fire.cpp.s
+src/moth_flame.s: src/moth_flame.cpp.s
 
-.PHONY : src/moth_fire.s
+.PHONY : src/moth_flame.s
 
 # target to generate assembly for a file
-src/moth_fire.cpp.s:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/moth_fire.cpp.s
-.PHONY : src/moth_fire.cpp.s
+src/moth_flame.cpp.s:
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/moth_flame.cpp.s
+.PHONY : src/moth_flame.cpp.s
 
 src/population.o: src/population.cpp.o
 
@@ -264,7 +264,7 @@ src/population.o: src/population.cpp.o
 
 # target to build an object file
 src/population.cpp.o:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/population.cpp.o
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/population.cpp.o
 .PHONY : src/population.cpp.o
 
 src/population.i: src/population.cpp.i
@@ -273,7 +273,7 @@ src/population.i: src/population.cpp.i
 
 # target to preprocess a source file
 src/population.cpp.i:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/population.cpp.i
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/population.cpp.i
 .PHONY : src/population.cpp.i
 
 src/population.s: src/population.cpp.s
@@ -282,7 +282,7 @@ src/population.s: src/population.cpp.s
 
 # target to generate assembly for a file
 src/population.cpp.s:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/population.cpp.s
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/population.cpp.s
 .PHONY : src/population.cpp.s
 
 src/run.o: src/run.cpp.o
@@ -291,7 +291,7 @@ src/run.o: src/run.cpp.o
 
 # target to build an object file
 src/run.cpp.o:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/run.cpp.o
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/run.cpp.o
 .PHONY : src/run.cpp.o
 
 src/run.i: src/run.cpp.i
@@ -300,7 +300,7 @@ src/run.i: src/run.cpp.i
 
 # target to preprocess a source file
 src/run.cpp.i:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/run.cpp.i
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/run.cpp.i
 .PHONY : src/run.cpp.i
 
 src/run.s: src/run.cpp.s
@@ -309,7 +309,7 @@ src/run.s: src/run.cpp.s
 
 # target to generate assembly for a file
 src/run.cpp.s:
-	$(MAKE) -f CMakeFiles/moth_fire.dir/build.make CMakeFiles/moth_fire.dir/src/run.cpp.s
+	$(MAKE) -f CMakeFiles/moth_flame.dir/build.make CMakeFiles/moth_flame.dir/src/run.cpp.s
 .PHONY : src/run.cpp.s
 
 # Help Target
@@ -320,7 +320,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... moth_fire"
+	@echo "... moth_flame"
 	@echo "... lib/mt64.o"
 	@echo "... lib/mt64.i"
 	@echo "... lib/mt64.s"
@@ -333,9 +333,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/moth_fire.o"
-	@echo "... src/moth_fire.i"
-	@echo "... src/moth_fire.s"
+	@echo "... src/moth_flame.o"
+	@echo "... src/moth_flame.i"
+	@echo "... src/moth_flame.s"
 	@echo "... src/population.o"
 	@echo "... src/population.i"
 	@echo "... src/population.s"

@@ -19,7 +19,7 @@ public:
     vector<float> run();
 
 private:
-    int gmax = 1000; /// Max iteration
+    int gmax = 2000; /// Max iteration
     int psize = 500; /// Size of population
     int dimension = 30; /// Dimension
     Population population;
