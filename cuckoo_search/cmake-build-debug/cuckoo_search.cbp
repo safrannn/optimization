@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cuckoo_search"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuckoo_search">
+				<Option output="/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/cuckoo_search" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuckoo_search"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuckoo_search/fast">
+				<Option output="/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/cuckoo_search" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuckoo_search/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/lib/mt64.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/lib/mt64.h">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search.h">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/data_stats.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/data_stats.h">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/func.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/func.h">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/main.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/population.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/population.h">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/run.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/run.h">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

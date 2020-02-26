@@ -2,9 +2,7 @@
 #include <vector>
 #include <iostream>
 
-//#include "differential_evolution.h"
 #include "../lib/mt64.h"
-#include "population.h"
 #include "differential_evolution.h"
 
 
