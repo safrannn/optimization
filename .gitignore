@@ -9,4 +9,4 @@ DerivedData/
 # Ignore Doxygen config file
 */doxy_config
 
-.ipynb_checkpoints
+/.ipynb_checkpoints
