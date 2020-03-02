@@ -6,35 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/chengsu/projects/optimization/moth_flame/lib/mt64.cpp
-stdio.h
--
-mt64.h
-/Users/chengsu/projects/optimization/moth_flame/lib/mt64.h
-
 /Users/chengsu/projects/optimization/moth_flame/lib/mt64.h
 stdio.h
 -
 inttypes.h
 -
 
-/Users/chengsu/projects/optimization/moth_flame/src/data_stats.cpp
-vector
--
-cmath
--
-data_stats.h
 /Users/chengsu/projects/optimization/moth_flame/src/data_stats.h
-
-/Users/chengsu/projects/optimization/moth_flame/src/data_stats.h
-vector
--
-
-/Users/chengsu/projects/optimization/moth_flame/src/func.cpp
-func.h
-/Users/chengsu/projects/optimization/moth_flame/src/func.h
-cmath
--
 vector
 -
 
@@ -75,22 +53,6 @@ population.h
 /Users/chengsu/projects/optimization/moth_flame/src/population.h
 data_stats.h
 /Users/chengsu/projects/optimization/moth_flame/src/data_stats.h
-
-/Users/chengsu/projects/optimization/moth_flame/src/population.cpp
-random
--
-vector
--
-cmath
--
-algorithm
--
-iostream
--
-../lib/mt64.h
-/Users/chengsu/projects/optimization/moth_flame/lib/mt64.h
-population.h
-/Users/chengsu/projects/optimization/moth_flame/src/population.h
 
 /Users/chengsu/projects/optimization/moth_flame/src/population.h
 stdio.h

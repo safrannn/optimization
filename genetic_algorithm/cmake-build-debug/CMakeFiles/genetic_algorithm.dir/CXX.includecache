@@ -22,6 +22,22 @@ stdio.h
 vector
 -
 
+/Users/chengsu/projects/optimization/genetic_algorithm/src/genetic_algorithm.cpp
+vector
+-
+array
+-
+cmath
+-
+iostream
+-
+genetic_algorithm.h
+/Users/chengsu/projects/optimization/genetic_algorithm/src/genetic_algorithm.h
+population.h
+/Users/chengsu/projects/optimization/genetic_algorithm/src/population.h
+../lib/mt64.h
+/Users/chengsu/projects/optimization/genetic_algorithm/lib/mt64.h
+
 /Users/chengsu/projects/optimization/genetic_algorithm/src/genetic_algorithm.h
 stdio.h
 -

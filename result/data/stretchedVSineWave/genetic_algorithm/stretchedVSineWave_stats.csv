@@ -1,2 +1,2 @@
-Strategy,Mean,Median,Std,Range(low),Range(high),Average time(mius)
-GA,30.9784,30.938,0.61566,29.6639,32.5812,209
+Strategy,Mean,Median,Std,Range(low),Range(high),Average time(mus)
+GA,30.1287,30.042,0.520667,29.2761,31.5993,460.04

@@ -45,7 +45,7 @@ void Population::generate(){
             data[i][j] = (float)(bound_low + (genrand64_real1()) * (bound_up - bound_low));
             particle_best_data[i][j] = data[i][j];
             /// generate velocity
-            velocity[i][j] = (float)((genrand64_real1()) * 0.5 *(bound_up - bound_low));
+            velocity[i][j] = (float)((genrand64_real1()) * 0.5 * (bound_up - bound_low));
         }
         /// calculate cost
         cost[i] = function(data[i]);

@@ -10,3 +10,6 @@ DerivedData/
 */doxy_config
 
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+result/graph

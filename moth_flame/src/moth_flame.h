@@ -20,7 +20,7 @@ public:
 
 private:
     int gmax = 2000; /// Max iteration
-    int psize = 500; /// Size of population
+    int psize = 200; /// Size of population
     int dimension = 30; /// Dimension
     Population population;
 

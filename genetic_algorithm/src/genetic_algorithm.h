@@ -29,7 +29,7 @@ private:
     int dimension = 30;/// Dimension
     float bound_low;/// Lower bound of the function
     float bound_up;/// Upper bound of the function
-    int tmax = 100; /// Maximum number of generation
+    int tmax = 200; /// Maximum number of generation
     float crossover_rate = 0.9; /// Crossover rate
     float mutation_rate = 0.005; /// Mutation rate
     float mutation_range = 0.1; /// Mutation value range

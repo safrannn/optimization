@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="whale"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chengsu/projects/optimization/whale/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chengsu/projects/optimization/whale/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chengsu/projects/optimization/whale/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="whale">
+				<Option output="/Users/chengsu/projects/optimization/whale/cmake-build-debug/whale" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/whale/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 whale"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="whale/fast">
+				<Option output="/Users/chengsu/projects/optimization/whale/cmake-build-debug/whale" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chengsu/projects/optimization/whale/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 whale/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chengsu/projects/optimization/whale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/lib/mt64.cpp">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/lib/mt64.h">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/data_stats.cpp">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/data_stats.h">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/func.cpp">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/func.h">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/main.cpp">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/population.cpp">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/population.h">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/run.cpp">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/run.h">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/whale.cpp">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/src/whale.h">
+			<Option target="whale"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/whale/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
