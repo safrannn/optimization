@@ -25,6 +25,13 @@ implementing differential evolution algorithm with 10 different strategies to fi
 ### particle_swamp:
 implementing particle swamp algorithm to find best solution for optimal function value.
 
+### cuckoo_search:
+implementing cuckoo saerch algorithm to find best solution for optimal function value. Basic cuckoo search with improved pa values of three strategies.
+
+### whale:
+implementing whale optimization algorithm to find best solution for optimal function value.
+
+
 ### result
 including results and analyzation
 
