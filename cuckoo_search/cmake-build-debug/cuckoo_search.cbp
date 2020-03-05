@@ -92,6 +92,18 @@
 		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search.h">
 			<Option target="cuckoo_search"/>
 		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_ecs.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_ecs.h">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_gaussian.cpp">
+			<Option target="cuckoo_search"/>
+		</Unit>
+		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_gaussian.h">
+			<Option target="cuckoo_search"/>
+		</Unit>
 		<Unit filename="/Users/chengsu/projects/optimization/cuckoo_search/src/data_stats.cpp">
 			<Option target="cuckoo_search"/>
 		</Unit>

@@ -177,6 +177,60 @@ src/cuckoo_search.cpp.s:
 	$(MAKE) -f CMakeFiles/cuckoo_search.dir/build.make CMakeFiles/cuckoo_search.dir/src/cuckoo_search.cpp.s
 .PHONY : src/cuckoo_search.cpp.s
 
+src/cuckoo_search_ecs.o: src/cuckoo_search_ecs.cpp.o
+
+.PHONY : src/cuckoo_search_ecs.o
+
+# target to build an object file
+src/cuckoo_search_ecs.cpp.o:
+	$(MAKE) -f CMakeFiles/cuckoo_search.dir/build.make CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.o
+.PHONY : src/cuckoo_search_ecs.cpp.o
+
+src/cuckoo_search_ecs.i: src/cuckoo_search_ecs.cpp.i
+
+.PHONY : src/cuckoo_search_ecs.i
+
+# target to preprocess a source file
+src/cuckoo_search_ecs.cpp.i:
+	$(MAKE) -f CMakeFiles/cuckoo_search.dir/build.make CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.i
+.PHONY : src/cuckoo_search_ecs.cpp.i
+
+src/cuckoo_search_ecs.s: src/cuckoo_search_ecs.cpp.s
+
+.PHONY : src/cuckoo_search_ecs.s
+
+# target to generate assembly for a file
+src/cuckoo_search_ecs.cpp.s:
+	$(MAKE) -f CMakeFiles/cuckoo_search.dir/build.make CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.s
+.PHONY : src/cuckoo_search_ecs.cpp.s
+
+src/cuckoo_search_gaussian.o: src/cuckoo_search_gaussian.cpp.o
+
+.PHONY : src/cuckoo_search_gaussian.o
+
+# target to build an object file
+src/cuckoo_search_gaussian.cpp.o:
+	$(MAKE) -f CMakeFiles/cuckoo_search.dir/build.make CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.o
+.PHONY : src/cuckoo_search_gaussian.cpp.o
+
+src/cuckoo_search_gaussian.i: src/cuckoo_search_gaussian.cpp.i
+
+.PHONY : src/cuckoo_search_gaussian.i
+
+# target to preprocess a source file
+src/cuckoo_search_gaussian.cpp.i:
+	$(MAKE) -f CMakeFiles/cuckoo_search.dir/build.make CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.i
+.PHONY : src/cuckoo_search_gaussian.cpp.i
+
+src/cuckoo_search_gaussian.s: src/cuckoo_search_gaussian.cpp.s
+
+.PHONY : src/cuckoo_search_gaussian.s
+
+# target to generate assembly for a file
+src/cuckoo_search_gaussian.cpp.s:
+	$(MAKE) -f CMakeFiles/cuckoo_search.dir/build.make CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.s
+.PHONY : src/cuckoo_search_gaussian.cpp.s
+
 src/data_stats.o: src/data_stats.cpp.o
 
 .PHONY : src/data_stats.o
@@ -327,6 +381,12 @@ help:
 	@echo "... src/cuckoo_search.o"
 	@echo "... src/cuckoo_search.i"
 	@echo "... src/cuckoo_search.s"
+	@echo "... src/cuckoo_search_ecs.o"
+	@echo "... src/cuckoo_search_ecs.i"
+	@echo "... src/cuckoo_search_ecs.s"
+	@echo "... src/cuckoo_search_gaussian.o"
+	@echo "... src/cuckoo_search_gaussian.i"
+	@echo "... src/cuckoo_search_gaussian.s"
 	@echo "... src/data_stats.o"
 	@echo "... src/data_stats.i"
 	@echo "... src/data_stats.s"

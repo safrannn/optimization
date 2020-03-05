@@ -16,4 +16,4 @@ add_executable(cuckoo_search
         src/data_stats.cpp
         src/data_stats.h
         src/cuckoo_search.cpp
-        src/cuckoo_search.h)
+        src/cuckoo_search.h src/cuckoo_search_gaussian.cpp src/cuckoo_search_gaussian.h src/cuckoo_search_ecs.cpp src/cuckoo_search_ecs.h)

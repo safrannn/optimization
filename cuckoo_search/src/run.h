@@ -17,7 +17,7 @@ void setSeed();
 
 DataStats runFunc(int experiment, string func_name, float (*f)(vector<float> &), float l, float u);
 
-void output_fHistory(int strategy, string func_name, vector<vector<float>> f_bests_history);
+void output_fHistory(string strategy, string func_name, vector<vector<float>> f_bests_history);
 
 void output_func(string func_name, vector<DataStats> result);
 

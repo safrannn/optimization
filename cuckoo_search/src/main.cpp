@@ -9,6 +9,7 @@
 using namespace std;
 
 int main() {
+    setSeed();
     int experiment = 50;
     vector<DataStats> result_best;
  

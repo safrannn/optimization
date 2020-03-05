@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cuckoo_search.dir/lib/mt64.cpp.o"
   "CMakeFiles/cuckoo_search.dir/src/cuckoo_search.cpp.o"
+  "CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.o"
+  "CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.o"
   "CMakeFiles/cuckoo_search.dir/src/data_stats.cpp.o"
   "CMakeFiles/cuckoo_search.dir/src/func.cpp.o"
   "CMakeFiles/cuckoo_search.dir/src/main.cpp.o"

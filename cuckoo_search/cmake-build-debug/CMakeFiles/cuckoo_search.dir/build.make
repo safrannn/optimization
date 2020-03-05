@@ -148,6 +148,32 @@ CMakeFiles/cuckoo_search.dir/src/cuckoo_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cuckoo_search.dir/src/cuckoo_search.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search.cpp -o CMakeFiles/cuckoo_search.dir/src/cuckoo_search.cpp.s
 
+CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.o: CMakeFiles/cuckoo_search.dir/flags.make
+CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.o: ../src/cuckoo_search_gaussian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.o -c /Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_gaussian.cpp
+
+CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_gaussian.cpp > CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.i
+
+CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_gaussian.cpp -o CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.s
+
+CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.o: CMakeFiles/cuckoo_search.dir/flags.make
+CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.o: ../src/cuckoo_search_ecs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.o -c /Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_ecs.cpp
+
+CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_ecs.cpp > CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.i
+
+CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chengsu/projects/optimization/cuckoo_search/src/cuckoo_search_ecs.cpp -o CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.s
+
 # Object files for target cuckoo_search
 cuckoo_search_OBJECTS = \
 "CMakeFiles/cuckoo_search.dir/src/main.cpp.o" \
@@ -156,7 +182,9 @@ cuckoo_search_OBJECTS = \
 "CMakeFiles/cuckoo_search.dir/src/population.cpp.o" \
 "CMakeFiles/cuckoo_search.dir/src/run.cpp.o" \
 "CMakeFiles/cuckoo_search.dir/src/data_stats.cpp.o" \
-"CMakeFiles/cuckoo_search.dir/src/cuckoo_search.cpp.o"
+"CMakeFiles/cuckoo_search.dir/src/cuckoo_search.cpp.o" \
+"CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.o" \
+"CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.o"
 
 # External object files for target cuckoo_search
 cuckoo_search_EXTERNAL_OBJECTS =
@@ -168,9 +196,11 @@ cuckoo_search: CMakeFiles/cuckoo_search.dir/src/population.cpp.o
 cuckoo_search: CMakeFiles/cuckoo_search.dir/src/run.cpp.o
 cuckoo_search: CMakeFiles/cuckoo_search.dir/src/data_stats.cpp.o
 cuckoo_search: CMakeFiles/cuckoo_search.dir/src/cuckoo_search.cpp.o
+cuckoo_search: CMakeFiles/cuckoo_search.dir/src/cuckoo_search_gaussian.cpp.o
+cuckoo_search: CMakeFiles/cuckoo_search.dir/src/cuckoo_search_ecs.cpp.o
 cuckoo_search: CMakeFiles/cuckoo_search.dir/build.make
 cuckoo_search: CMakeFiles/cuckoo_search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cuckoo_search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chengsu/projects/optimization/cuckoo_search/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable cuckoo_search"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cuckoo_search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

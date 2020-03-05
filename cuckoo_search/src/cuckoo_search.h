@@ -1,5 +1,5 @@
-#ifndef moth_fire
-#define moth_fire
+#ifndef cuckoo_search
+#define cuckoo_search
 
 #include "population.h"
 #include "data_stats.h"
@@ -8,14 +8,13 @@ using namespace std;
 
 class CS{
 public:
-    CS(int strat, float (*f)(vector<float> &), float l, float u);
+    CS(float (*f)(vector<float> &), float l, float u);
     vector<float> run();
 
 private:
-    int strategy = 0;
-    int gmax = 2500; /// Max generation
-    float alpha0 = 0.01; /// Alpha value for generating trial vector for each generation
-    float pa_max = 0.25;
+    int gmax = 8000; /// Max generation
+    float alpha0 = 0.05; /// Alpha value for generating trial vector for each generation
+    float pa = 0.25;
     int psize = 200; /// Size of population
     int dimension = 30; /// Solution dimension
     Population population; /// Cuckoo bird population
@@ -30,4 +29,4 @@ private:
 
     void reset(); /// reset a run
 };
-#endif //moth_fire
+#endif //cuckoo_search

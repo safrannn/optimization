@@ -18,13 +18,14 @@ void Population::init(int s, int d, float (*f)(vector<float> &), float l, float 
     function = f;
     bound_low = l;
     bound_up = u;
-    cost_best = INT_MAX;
 
     vector<float> temp(dimension,0);
     for (int i = 0; i < size; i++){
         data.push_back(temp);
         cost.push_back(0);
+        data_best.push_back(0);
     }
+    cost_best = INT_MAX;
 }
 
 /// reset the population for new run
@@ -43,6 +44,7 @@ void Population::generate(){
         /// calculate cost
         cost[i] = function(data[i]);
         if (cost[i] < cost_best){
+            data_best = data[i];
             cost_best = cost[i];
         }
     }

@@ -19,6 +19,7 @@ public:
 
     vector<vector<float>> data;
     vector<float> cost;
+    vector<float> data_best;
     float cost_best;
 
     void reset(); /// Reset the population for new run

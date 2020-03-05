@@ -7,11 +7,10 @@
 
 using namespace std;
 
-CS::CS(int strat, float (*f)(vector<float> &), float l, float u){
+CS::CS(float (*f)(vector<float> &), float l, float u){
     function = f;
     bound_low = l;
     bound_high = u;
-    strategy = strat;
 
     population.init(psize, dimension, f, l, u);
 
@@ -90,21 +89,7 @@ vector<float> CS::run(){
             }
         }
 
-        /// abandon pa of n worse nests, keep the best solutions and build new ones
-        float pa;
-        if (strategy == 1){
-            pa = pa_max * g / gmax;
-        }else if (strategy == 2){
-            pa = pa_max * 0.6 * (exp((float)g / (float)gmax) - exp(0));
-        }else if (strategy == 3){
-            pa = pa_max * g * g * g/ (gmax * gmax * gmax);
-        }else{
-            pa = 0.25;
-        }
-
         int m_low = pa * psize;
-
-//        cout << "strategy : "<< strategy << "| pa: " << pa << "|mlow: "<< m_low  << endl;
 
         population.sort_cost();
         for (int m = psize - 1; m >= m_low; m--){
@@ -132,9 +117,7 @@ vector<float> CS::run(){
             }
         }
         global_best_history.push_back(population.cost_best);
-//        cout << population.cost_best << endl;
     }
-//    cout << "eeeeeeeeeeeee"<<endl;
     return global_best_history;
 }
 
